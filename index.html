@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+			<p>Include information here about your app.</p>
+			<ul>
+				<h2>Instructions for using the app</h2>
+				The only key is "Enter", long press for "select", short press for "next".
+				<h2>Test Results:</h2>
+				<p>I tested two conditions: a three-key interface (one key for "next", one for "select", one for "enter") and a one-key interface (long press for "select", short press for "next"). The problems for the users to solve were:</p>
+				<p>The time taken by me to solve the problems was recorded along with the errors they made.</p>
+				<ol>
+					<li>45 * 78</li>
+					<li>75 / 25</li>
+					<li>98 + 34</li>
+					<li>63 - 32</li>
+					<li>(85 + 90) * 2</li>
+				  </ol>
+		<p><strong>Hand</strong></p>		  
+<p><strong>Average Time:</strong></p>
+<ul>
+  <li>three-key: 3 minutes</li>
+  <li>one-key: 4 minutes</li>
+</ul>
+<p><strong>Number of Errors:</strong></p>
+<ul>
+  <li>three-key: 3 errors</li>
+  <li>one-key: 7 errors</li>
+</ul>
+				<p><strong>Foot</strong></p>	
+				<p><strong>Average Time:</strong></p>
+<ul>
+  <li>three-key: 5 minutes</li>
+  <li>one-key: 6 minutes</li>
+</ul>
+<p><strong>Number of Errors:</strong></p>
+<ul>
+  <li>three-key: 9 errors</li>
+  <li>one-key: 4 errors</li>
+</ul>
+								<p><strong>Back Hand</strong></p>	
+				<p><strong>Average Time:</strong></p>
+<ul>
+  <li>three-key: 4 minutes</li>
+  <li>one-key: 4 minutes</li>
+</ul>
+<p><strong>Number of Errors:</strong></p>
+<ul>
+  <li>three-key: 5 errors</li>
+  <li>one-key: 2 errors</li>
+</ul>
+				<h2>Anything else you have tried out</h2>
+				Yes, apart from the one-key and three-key interfaces, I also experimented with a two-key interface. In this setup, one key was used for "next" and "select" (short press for "next", long press for "previous") and the second key was used for "select".
+
+The main goal was to find a balance between simplicity and efficiency, as the one-key interface might be too slow and error-prone due to the long press action, and the three-key interface could potentially be a bit overwhelming for some users.
+
+			</ul>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
